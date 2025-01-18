@@ -14,7 +14,7 @@
   2. From your userscript manager, install the script totally_irresponsible_consult_autoreply_YYYY-MM-DD.user.js. (The HTML file consults_poc.html contains a basic framework that is intended to showcase the script. This file is not strictly required for the userscript to run, but it does give you an idea of how it's supposed to work.)
   3. Edit the file in your userscript manager:
 
-      1. The "@match" clause in the header needs to be edited from the file URL file:///*/* to match your target web domain (like https://* or something else).
+      1. The "@match" clause in the header needs to be edited from the file URL file:///\*/\* to match your target web domain (like https://* or something else).
       2. Also, the statements document.getElementById("consult") and document.getElementById("reply") should have the element ID names changed to those actually used.
     
   5. Start the userscript. Fill in the required info and start receiving generations!
